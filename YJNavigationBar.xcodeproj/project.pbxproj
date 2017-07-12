@@ -43,6 +43,7 @@
 		8DF8BE381F15B21000B5080F /* QQAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8BE321F15B21000B5080F /* QQAppController.m */; };
 		8DF8BE391F15B21000B5080F /* QQZoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8BE341F15B21000B5080F /* QQZoneController.m */; };
 		8DF8BE3A1F15B21000B5080F /* WeiBoMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8BE361F15B21000B5080F /* WeiBoMineController.m */; };
+		8DF8BE491F15BE7D00B5080F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8BE481F15BE7D00B5080F /* README.md */; };
 		A2A2ABA594C76BAC03F73FA0 /* libPods-YJNavigationBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 984629338CEF72279841CA7A /* libPods-YJNavigationBar.a */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +118,7 @@
 		8DF8BE341F15B21000B5080F /* QQZoneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQZoneController.m; sourceTree = "<group>"; };
 		8DF8BE351F15B21000B5080F /* WeiBoMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiBoMineController.h; sourceTree = "<group>"; };
 		8DF8BE361F15B21000B5080F /* WeiBoMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiBoMineController.m; sourceTree = "<group>"; };
+		8DF8BE481F15BE7D00B5080F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		984629338CEF72279841CA7A /* libPods-YJNavigationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJNavigationBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9136E1E7C49D653A6864D9 /* Pods-YJNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJNavigationBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJNavigationBar/Pods-YJNavigationBar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +146,7 @@
 		8D8AE77A1F0DC4F3002047EB = {
 			isa = PBXGroup;
 			children = (
+				8DF8BE481F15BE7D00B5080F /* README.md */,
 				8D8AE7851F0DC4F3002047EB /* YJNavigationBar */,
 				8D8AE7841F0DC4F3002047EB /* Products */,
 				9E3E8D24BAA5A3607269A994 /* Pods */,
@@ -542,6 +545,7 @@
 				8D8AE7AC1F0DC5B5002047EB /* YJBaseViewController.m in Sources */,
 				8DF8BE2C1F15B18400B5080F /* MillcolorGradController.m in Sources */,
 				8D8AE8031F0F4C67002047EB /* UIView+SDExtension.m in Sources */,
+				8DF8BE491F15BE7D00B5080F /* README.md in Sources */,
 				8DF8BE2D1F15B18400B5080F /* QQMineController.m in Sources */,
 				8D8AE8001F0F4C67002047EB /* TAPageControl.m in Sources */,
 				8D8AE7AD1F0DC5B5002047EB /* YJNavigationController.m in Sources */,
