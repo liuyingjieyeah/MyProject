@@ -1,0 +1,46 @@
+//
+//  PrefixHeader.pch
+//  YJNavigationBar
+//
+//  Created by liuyingjie on 2017/7/6.
+//  Copyright © 2017年 liuyingjieyeah. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/**
+ *  宏定义文件
+ */
+
+
+//Color
+#define RGBA(r, g, b, a)    [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+
+#define MainNavBarColor     RGBA(0,175,240,1)
+#define MainViewColor       RGBA(126,126,126,1)
+
+
+//Size
+#define SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
+
+
+
+//Config
+
+#define IMP_BLOCK_SELF(type) __weak type *block_self=self;
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */
