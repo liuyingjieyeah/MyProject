@@ -20,7 +20,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         self.font=[UIFont boldSystemFontOfSize:12];
-        self.textColor=[UIColor colorWithRed:0.33 green:0.84 blue:0.43 alpha:1.00];
+        self.textColor=[UIColor colorWithRed:203/255.0 green:66/255.0 blue:59/255.0 alpha:1.0];
         [self addFPSMonitor];
         [[NSNotificationCenter defaultCenter] addObserver: self
                                                  selector: @selector(applicationDidBecomeActiveNotification)
