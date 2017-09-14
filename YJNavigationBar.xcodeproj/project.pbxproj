@@ -36,6 +36,8 @@
 		8D8AE8031F0F4C67002047EB /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8AE7FC1F0F4C67002047EB /* UIView+SDExtension.m */; };
 		8D8AE8051F0F4FEF002047EB /* TabBarItem.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8AE8041F0F4FEF002047EB /* TabBarItem.xcassets */; };
 		8D8AE8091F0F5041002047EB /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8AE8081F0F5041002047EB /* WRNavigationBar.m */; };
+		8D9C34531F6A53BF00F0DFAF /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C34521F6A53BF00F0DFAF /* TestViewController.m */; };
+		8D9C34571F6A54B000F0DFAF /* StaticClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C34561F6A54B000F0DFAF /* StaticClass.m */; };
 		8DF8BE2A1F15B18400B5080F /* AntForestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8BE211F15B18400B5080F /* AntForestController.m */; };
 		8DF8BE2B1F15B18400B5080F /* ImageNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8BE231F15B18400B5080F /* ImageNavController.m */; };
 		8DF8BE2C1F15B18400B5080F /* MillcolorGradController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8BE251F15B18400B5080F /* MillcolorGradController.m */; };
@@ -105,6 +107,10 @@
 		8D8AE8041F0F4FEF002047EB /* TabBarItem.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TabBarItem.xcassets; sourceTree = "<group>"; };
 		8D8AE8071F0F5041002047EB /* WRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRNavigationBar.h; sourceTree = "<group>"; };
 		8D8AE8081F0F5041002047EB /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
+		8D9C34511F6A53BF00F0DFAF /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		8D9C34521F6A53BF00F0DFAF /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		8D9C34551F6A54B000F0DFAF /* StaticClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticClass.h; sourceTree = "<group>"; };
+		8D9C34561F6A54B000F0DFAF /* StaticClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticClass.m; sourceTree = "<group>"; };
 		8DF8BE201F15B18400B5080F /* AntForestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntForestController.h; sourceTree = "<group>"; };
 		8DF8BE211F15B18400B5080F /* AntForestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntForestController.m; sourceTree = "<group>"; };
 		8DF8BE221F15B18400B5080F /* ImageNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageNavController.h; sourceTree = "<group>"; };
@@ -185,6 +191,9 @@
 				8D8AE78A1F0DC4F3002047EB /* AppDelegate.m */,
 				8D8AE78C1F0DC4F3002047EB /* ViewController.h */,
 				8D8AE78D1F0DC4F3002047EB /* ViewController.m */,
+				8D9C34511F6A53BF00F0DFAF /* TestViewController.h */,
+				8D9C34521F6A53BF00F0DFAF /* TestViewController.m */,
+				8D9C34541F6A546500F0DFAF /* StaticClass */,
 				8D8AE7B91F0DE37B002047EB /* PrefixHeader.pch */,
 				8D8AE7D11F0F2079002047EB /* HomeViewCotroller */,
 				8DF8BE1C1F15B05200B5080F /* SecondViewController */,
@@ -372,6 +381,15 @@
 			path = WRNavigationBar;
 			sourceTree = "<group>";
 		};
+		8D9C34541F6A546500F0DFAF /* StaticClass */ = {
+			isa = PBXGroup;
+			children = (
+				8D9C34551F6A54B000F0DFAF /* StaticClass.h */,
+				8D9C34561F6A54B000F0DFAF /* StaticClass.m */,
+			);
+			path = StaticClass;
+			sourceTree = "<group>";
+		};
 		8DF8BE1C1F15B05200B5080F /* SecondViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -548,8 +566,10 @@
 				8D8AE7D61F0F20D2002047EB /* TopAdData.m in Sources */,
 				8D8AE7C41F0E1DF6002047EB /* YJTabBarButton.m in Sources */,
 				8DF8BE391F15B21000B5080F /* QQZoneController.m in Sources */,
+				8D9C34571F6A54B000F0DFAF /* StaticClass.m in Sources */,
 				8D8AE78E1F0DC4F3002047EB /* ViewController.m in Sources */,
 				8D8AE7FE1F0F4C67002047EB /* TAAnimatedDotView.m in Sources */,
+				8D9C34531F6A53BF00F0DFAF /* TestViewController.m in Sources */,
 				8D8AE78B1F0DC4F3002047EB /* AppDelegate.m in Sources */,
 				8D8AE8091F0F5041002047EB /* WRNavigationBar.m in Sources */,
 				8DF8BE381F15B21000B5080F /* QQAppController.m in Sources */,
